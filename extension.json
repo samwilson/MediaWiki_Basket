@@ -1,41 +1,41 @@
 {
-	"name": "BoilerPlate",
-	"version": "0.0.0",
+	"name": "BulkCategoryChanges",
+	"version": "0.1.0",
 	"author": [
-		"Your Name"
+		"Sam Wilson"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:BoilerPlate",
-	"descriptionmsg": "boilerplate-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:BulkCategoryChanges",
+	"descriptionmsg": "bulkcategorychanges-desc",
 	"license-name": "MIT",
 	"type": "other",
 	"AutoloadClasses": {
-		"BoilerPlateHooks": "BoilerPlate.hooks.php",
+		"BulkCategoryChangesHooks": "BulkCategoryChanges.hooks.php",
 		"SpecialHelloWorld": "specials/SpecialHelloWorld.php"
 	},
 	"config": {
-		"BoilerPlateEnableFoo": true
+		"BulkCategoryChangesEnableFoo": true
 	},
 	"ExtensionMessagesFiles": {
-		"BoilerPlateAlias": "BoilerPlate.i18n.alias.php"
+		"BulkCategoryChangesAlias": "BulkCategoryChanges.i18n.alias.php"
 	},
 	"Hooks": {
 		"NameOfHook": [
-			"BoilerPlateHooks::onNameOfHook"
+			"BulkCategoryChangesHooks::onNameOfHook"
 		]
 	},
 	"MessagesDirs": {
-		"BoilerPlate": [
+		"BulkCategoryChanges": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"ext.boilerPlate.foo": {
+		"ext.bulkCategoryChanges.foo": {
 			"scripts": [
-				"modules/ext.boilerPlate.js",
-				"modules/ext.boilerPlate.foo.js"
+				"modules/ext.bulkCategoryChanges.js",
+				"modules/ext.bulkCategoryChanges.foo.js"
 			],
 			"styles": [
-				"modules/ext.boilerPlate.foo.css"
+				"modules/ext.bulkCategoryChanges.foo.css"
 			],
 			"messages": [],
 			"dependencies": []
@@ -43,7 +43,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "BoilerPlate"
+		"remoteExtPath": "BulkCategoryChanges"
 	},
 	"SpecialPages": {
 		"HelloWorld": "SpecialHelloWorld"

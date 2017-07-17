@@ -1,10 +1,10 @@
 ( function ( mw ) {
 
 	/**
-	 * @class mw.boilerPlate
+	 * @class mw.bulkCategoryChanges
 	 * @singleton
 	 */
-	mw.boilerPlate = {
+	mw.bulkCategoryChanges = {
 	};
 
 }( mediaWiki ) );

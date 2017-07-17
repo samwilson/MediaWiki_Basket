@@ -1,6 +1,6 @@
 <?php
 /**
- * HelloWorld SpecialPage for BoilerPlate extension
+ * HelloWorld SpecialPage for BulkCategoryChanges extension
  *
  * @file
  * @ingroup Extensions
@@ -20,11 +20,11 @@ class SpecialHelloWorld extends SpecialPage {
 	public function execute( $sub ) {
 		$out = $this->getOutput();
 
-		$out->setPageTitle( $this->msg( 'boilerplate-helloworld' ) );
+		$out->setPageTitle( $this->msg( 'bulkCategoryChanges-helloworld' ) );
 
 		$out->addHelpLink( 'How to become a MediaWiki hacker' );
 
-		$out->addWikiMsg( 'boilerplate-helloworld-intro' );
+		$out->addWikiMsg( 'bulkCategoryChanges-helloworld-intro' );
 
 		$formDescriptor = [
 			'myfield1' => [
