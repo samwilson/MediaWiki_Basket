@@ -1,6 +1,6 @@
 <?php
 /**
- * HelloWorld SpecialPage for BulkCategoryChanges extension
+ * HelloWorld SpecialPage for Basket extension
  *
  * @file
  * @ingroup Extensions
@@ -20,11 +20,11 @@ class SpecialHelloWorld extends SpecialPage {
 	public function execute( $sub ) {
 		$out = $this->getOutput();
 
-		$out->setPageTitle( $this->msg( 'bulkCategoryChanges-helloworld' ) );
+		$out->setPageTitle( $this->msg( 'basket-helloworld' ) );
 
 		$out->addHelpLink( 'How to become a MediaWiki hacker' );
 
-		$out->addWikiMsg( 'bulkCategoryChanges-helloworld-intro' );
+		$out->addWikiMsg( 'basket-helloworld-intro' );
 
 		$formDescriptor = [
 			'myfield1' => [

@@ -1,52 +1,48 @@
 {
-	"name": "BulkCategoryChanges",
+	"name": "Basket",
 	"version": "0.1.0",
 	"author": [
 		"Sam Wilson"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:BulkCategoryChanges",
-	"descriptionmsg": "bulkcategorychanges-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:Basket",
+	"descriptionmsg": "basket-desc",
 	"license-name": "MIT",
 	"type": "other",
 	"AutoloadClasses": {
-		"BulkCategoryChangesHooks": "BulkCategoryChanges.hooks.php",
-		"SpecialHelloWorld": "specials/SpecialHelloWorld.php"
-	},
-	"config": {
-		"BulkCategoryChangesEnableFoo": true
-	},
-	"ExtensionMessagesFiles": {
-		"BulkCategoryChangesAlias": "BulkCategoryChanges.i18n.alias.php"
+		"Basket\\Hooks": "src/Hooks.php"
 	},
 	"Hooks": {
-		"NameOfHook": [
-			"BulkCategoryChangesHooks::onNameOfHook"
+		"BeforePageDisplay": [
+			"Basket\\Hooks::onBeforePageDisplay"
 		]
 	},
 	"MessagesDirs": {
-		"BulkCategoryChanges": [
+		"Basket": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"ext.bulkCategoryChanges.foo": {
+		"ext.Basket": {
 			"scripts": [
-				"modules/ext.bulkCategoryChanges.js",
-				"modules/ext.bulkCategoryChanges.foo.js"
+				"modules/ext.Basket.js"
 			],
 			"styles": [
-				"modules/ext.bulkCategoryChanges.foo.css"
+				"modules/ext.Basket.css"
 			],
-			"messages": [],
-			"dependencies": []
+			"messages": [
+				"basket",
+				"basket-contents",
+				"basket-edit"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "BulkCategoryChanges"
-	},
-	"SpecialPages": {
-		"HelloWorld": "SpecialHelloWorld"
+		"remoteExtPath": "Basket"
 	},
 	"manifest_version": 1
 }

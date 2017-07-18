@@ -1,10 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Sam Wilson"
+		]
 	},
-	"bulkCategoryChanges-desc": "This is an example extension",
-	"bulkCategoryChanges-i18n-welcome": "Welcome to the localization file of the BulkCategoryChanges extension.",
-	"bulkCategoryChanges-helloworld": "Hello world!",
-	"bulkCategoryChanges-helloworld-intro": "Welcome to the \"Hello world\" special page of the BulkCategoryChanges extension.",
-	"helloworld": "Hello world"
+	"basket": "Basket",
+	"basket-desc": "A bulk categorization tool.",
+	"basket-contents": "$1 items in your basket.",
+	"basket-edit": "Edit these pages"
 }

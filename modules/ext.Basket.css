@@ -1,0 +1,52 @@
+
+#ext-basket {
+	height: 160px;
+	bottom: -160px;
+	position: fixed;
+	width: 100%;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#ext-basket .inner {
+	border-top: 1px solid #a2a9b1;
+	background-color: white;
+	box-shadow: 0 -2px 1px 0 rgba(0, 0, 0, 0.25);
+	height: 100%;
+}
+#ext-basket .handle {
+	cursor: pointer;
+	position: relative;
+	bottom: -1px;
+	display: block;
+	width: 10em;
+	text-align: center;
+	margin: auto;
+	border: 1px solid #a2a9b1;
+	border-bottom: 0;
+	border-radius: 4px 4px 0 0;
+}
+#ext-basket .inner,
+#ext-basket .handle {
+	background-color:white;
+	box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.30);
+}
+#ext-basket ul {
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+#ext-basket ul li { 
+	display: inline-block;
+	width: 100px;
+	height:100px;
+	margin: 0 4px;
+	padding: 2px;
+	border: 1px solid #bec5cd;
+	border-radius: 3px;
+	overflow: hidden;
+	font-size: smaller;
+}

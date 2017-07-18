@@ -1,16 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki",
-			"Umherirrender",
-			"Amire80",
-			"Fhocutt",
-			"Liuxinyu970226"
+			"Sam Wilson"
 		]
 	},
-	"bulkCategoryChanges-desc": "{{desc|name=BulkCategoryChanges|url=https://www.mediawiki.org/wiki/Extension:BulkCategoryChanges}}",
-	"bulkCategoryChanges-i18n-welcome": "Used to greet the user when reading the i18n/??.json file.",
-	"bulkCategoryChanges-helloworld": "Page title of the HelloWorld special page.\n{{Identical|Hello World}}",
-	"bulkCategoryChanges-helloworld-intro": "Text displayed on the HelloWorld SpecialPage.",
-	"helloworld": "Text of the link to the HelloWorld special page on SpecialPages.\n{{Identical|Hello World}}"
+	"basket": "The name of the extension.",
+	"basket-desc": "{{desc|name=Basket|url=https://www.mediawiki.org/wiki/Extension:Basket}}",
 }

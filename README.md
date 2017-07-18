@@ -6,8 +6,8 @@ following commands to make a clean directory of just this template without the
 Git meta-data and other examples.
 
 	cd extensions
-	git clone https://gerrit.wikimedia.org/r/p/mediawiki/extensions/BulkCategoryChanges.git
-	cp -R BulkCategoryChanges ./MyExtension
+	git clone https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Basket.git
+	cp -R Basket ./MyExtension
 
 This automates the recommended code checkers for PHP and JavaScript code in Wikimedia projects
 (see https://www.mediawiki.org/wiki/Continuous_integration/Entry_points).
